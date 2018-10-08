@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>My App</title>
+    <style>
+      .cover{
+        background-image: url(img/bg.png);
+        background-size: cover;
+
+      }
+
+    </style>
+
+
+  </head>
+  <body>
+    <!-- ヘッダー  -->
+    <header>
+      <!-- アラート -->
+      <div class="alert alert-info text-center mb-0 rounded-0 alert-alert-dismissible fade show">
+        Dammy News.        Dammy News.        Dammy News.
+        <button class="close" data-dismiss="alert">&times</button>
+      </div>
+      <div class="container">
+        <!--  ナビゲーションバー-->
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <a href="" class="navbar-brand">Logo</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Link</a></li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+      <div class="cover text-white text-center">
+        <h1 class="display-4 mb-4">My App</h1>
+        <a href="#" class="btn btn-primary btn-lg">Get It Now!</a>
+      </div>
+    </header>
+    <main>
+      <!-- 画像とテキスト(レスポンシブ対応) -->
+      <section class="py-5">
+        <h2 class="text-center mb-5">Features</h2>
+        <div class="container">
+          <div class="mb-5 row">
+            <div class="col-sm-8">
+              <h3>Awesome</h3>
+              <p>Hello.Hello.Hello.Hello.Hello.Hello.Hello.Hello.Hello.</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="img/phone.png" class="w-100 rounded-circle">
+            </div>
+          </div>
+          <div  class="row">
+            <div class="col-sm-8 order-sm-2">
+              <h3>Awesome</h3>
+              <p>Hello.Hello.Hello.Hello.Hello.Hello.Hello.Hello.Hello.</p>
+            </div>
+            <div class="col-sm-4 order-sm-1">
+              <img src="img/movie.png" class="w-100 rounded-circle">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- テーブル -->
+      <section class="bg-light text-center py-5">
+        <h2 class="mb-5">Plans</h2>
+        <div class="container">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Plan A</th><th>Plan B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>AA</td><td>BB</td></tr>
+              <tr><td>AAA</td><td>BBB</td></tr>
+              <tr><td>AAAA</td><td>BBBB</td></tr>
+            </tbody>
+
+          </table>
+
+        </div>
+      </section>
+
+
+
+      <!-- タブ
+      tooltipはjQueryで要素を指定  -->
+      <section class="py-5">
+        <h2 class="mb-5 text-center">How to Use</h2>
+        <div class="container">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#ios" class="nav-link active" data-toggle="tab">iOS</a></li>
+            <li class="nav-item"><a href="#android" class="nav-link" data-toggle="tab">Android</a></li>
+            <li class="nav-item"><a href="#galapagos" class="nav-link"
+              data-toggle="tab">Galapagos</a>
+            </li>
+          </ul>
+          <div class="tab-content py-4">
+            <div id="ios" class="tab-pane active">
+              <p>Dammy iOS text.Dammy iOS <span class="font-weight-bold text-info" data-toggle="tooltip" title="This is awesome" data-placement="bottom">text.Dammy iOS text.Dammy iOS text.Dammy iOS text.Dammy iOS text.</span>Dammy iOS text.</p>
+            </div>
+            <div id="android" class="tab-pane">
+              <p>Dammy Android text.Dammy Android text.Dammy Android text.Dammy Android text.Dammy Android text.Dammy Android text.Dammy Android text.</p>
+            </div>
+            <div id="galapagos" class="tab-pane">
+              <p>Dammy Galapagos text.Dammy Galapagos text.Dammy Galapagos text.Dammy Galapagos text.Dammy Galapagos text.Dammy Galapagos text.Dammy Galapagos text.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light text-center py-5">
+        <a href="#" class="btn btn-primary btn-lg">Get It Now!</a>
+      </section>
+    </main>
+
+    <footer class="text-center text-muted py-4">
+      <small>Copyright sayuen0</small>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--  tooltipのためのjQuery  -->
+    <script type="text/javascript">
+      $(function(){
+        'use-strict';
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
